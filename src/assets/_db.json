@@ -1,0 +1,98 @@
+{
+    "members": [
+        {
+            "id": "123456",
+            "cin": "14785236",
+            "nom": "Moncef",
+            "type": "Etudiant",
+            "cv": "lien",
+            "createdDate": "15/12/2022"
+        },
+        {
+            "id": "123457",
+            "cin": "1478596",
+            "nom": "Mondher",
+            "type": "Etudiant",
+            "cv": "lien2",
+            "createdDate": "14/12/2022"
+        },
+        {
+            "id": "147896",
+            "cin": "14596322",
+            "nom": "Omar",
+            "type": "Etudiant",
+            "cv": "lien3",
+            "createdDate": "13/12/2022"
+        }
+    ],
+
+    "articles": [
+        {
+            "id": "123456",
+            "type": "type1",
+            "titre": "info1",
+            "lien": "lien1",
+            "date": "date1",
+            "source_pdf": "pdf1",
+            "auteur": ""
+        },
+        {
+            "id": "1234567",
+            "type": "type2",
+            "titre": "info2",
+            "lien": "lien2",
+            "date": "date2",
+            "source_pdf": "pdf2",
+            "auteur": ""
+        },
+        {
+            "id": "1234568",
+            "type": "type3",
+            "titre": "info3",
+            "lien": "lien3",
+            "date": "date3",
+            "source_pdf": "pdf3",
+            "auteur": ""
+        }
+    ],
+    "evenements": [
+        {
+            "id": "0123456",
+            "titre": "info1",
+            "lieu": "lieu1",
+            "date": "date1"
+            
+        },
+        {
+            "id": "01234567",
+            "titre": "info2",
+            "lieu": "lieu2",
+            "date": "date2"
+            
+        },
+        {
+            "id": "01234568",
+            "titre": "info3",
+            "lieu": "lieu3",
+            "date": "date3"
+           
+        }
+    ],
+    "outil" : [
+        {
+           "id" : "1235478" ,
+           "date" : " 12/11/2022",
+           "source" : "source 1"
+        },
+        {
+            "id" : "1235479" ,
+            "date" : " 11/11/2022",
+            "source" : "source 2"
+         },
+         {
+            "id" : "1235477" ,
+            "date" : " 10/11/2022",
+            "source" : "source 3"
+         }
+    ]
+}

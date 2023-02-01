@@ -1,0 +1,19 @@
+<form [formGroup]="form" (ngSubmit)="ONSUB()">
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="cin" formControlName="cin">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="nom" formControlName="nom">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="cv" formControlName="cv">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="type" formControlName="type">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+</form>

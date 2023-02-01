@@ -1,0 +1,16 @@
+<form [formGroup]="form" (ngSubmit)="ONSUB()">
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="titre" formControlName="titre">
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="lieu" formControlName="lieu">
+    </mat-form-field>
+    <br>
+    
+    <mat-form-field appearance="legacy" style="width: 70%;">
+        <input matInput placeholder="date" formControlName="date">
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary" type="submit">Submit</button>
+</form>
